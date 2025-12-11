@@ -1,6 +1,8 @@
 local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/kismiletest/test1/refs/heads/main/UI.lua"))()
 local win = ui:new("测试")
 local UITab1 = win:Tab("测试")
+local UITab2 = win:Tab("测试1")
+local UITab3 = win:Tab("测试2")
 local Tab = UITab1:section("测试", true)
 Tab:Slider("视角缩放距离", "Slider", 128, 128, 10000, false, function(Value)
     game:GetService("Players").LocalPlayer.CameraMaxZoomDistance = Value
